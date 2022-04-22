@@ -1,4 +1,4 @@
-import { IBookRepository } from "../../Books/repository/IBookRepository";
+import { IBookRepository } from "../../../Books/repository/IBookRepository";
 
 export class ListBookUseCase {
 
