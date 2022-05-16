@@ -9,8 +9,8 @@ Project to practice relationships in a Database
 
 ### Descrição ☝
 > Desafio Prático
-> que consiste em um sistema de cadastro de Livros e Autores. Utilizando MySQL como Banco de Dados e o Prisma como ORM.
-> relacionamento One to Many -> Um para Muitos
+> que consiste em um sistema de cadastro de Livros, Autores e Usuários. Utilizando `MySQL` como Banco de Dados principal e o `Prisma ORM` para orquestração produtiva do Banco de Dados.
+> projeto criado com o intuito de fixar conteúdos sobre relações **One to Many** no **incrível** `Prisma ORM` 
 
 
 ## Ajustes e melhorias ⚙🛠
@@ -23,6 +23,11 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Deletar Livro
 - [x] Relacionamento entre o Autor e seus respectivos Livros - One to Many
 - [ ] Atualizar Livro
+- [ ] Implantar **container** para alocar service de Banco de Dados `Postgres`
+- [ ] Cadastrar Usuário
+- [ ] Inserção no Banco de Dados
+- [ ] Carrinho de compras
+- [ ] Autorização permissiva `JWT`
 
 ## Feito Com: ⚒
 ![Node.Js](https://img.shields.io/badge/Node.js-52b788?style=for-the-badge&logo=node.js&logoColor=white)
