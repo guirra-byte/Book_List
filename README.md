@@ -24,10 +24,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Relacionamento entre o Autor e seus respectivos Livros - One to Many
 - [ ] Atualizar Livro
 - [ ] Implantar **container** para alocar service de Banco de Dados `Postgres`
-- [ ] Cadastrar Usuário
-- [ ] Inserção no Banco de Dados
-- [ ] Carrinho de compras
-- [ ] Autorização permissiva `JWT`
+- [x] Cadastrar Usuário
+- [x] Inserção no Banco de Dados
+- [x] Carrinho de compras
+- [x] Autorização permissiva `JWT`
 
 ## Feito Com: ⚒
 ![Node.Js](https://img.shields.io/badge/Node.js-52b788?style=for-the-badge&logo=node.js&logoColor=white)
