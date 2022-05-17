@@ -32,4 +32,15 @@ model Book {
   updated_at  DateTime @updatedAt
   author_id   String
   author      Author   @relation(fields: [author_id], references: [id])
+  user_id     String
+  purchaseCar User     @relation(fields: [user_id], references: [id])
+}
+
+model User {
+
+  id          String @id @default(uuid())
+  name        String
+  email       String @unique
+  password    String
+  purchaseCar Book[]
 }

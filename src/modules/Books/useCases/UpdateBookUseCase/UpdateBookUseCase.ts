@@ -1,4 +1,5 @@
 import { IBookRepository } from "../../repository/IBookRepository";
+import { AppError } from "../../../../Errors/AppError";
 
 
 export class UpdateBookUseCase {
@@ -10,7 +11,7 @@ export class UpdateBookUseCase {
 
     if (!verifyBook) {
 
-      throw new Error("An uncreated book cannot be updated")
+      throw new AppError("An uncreated book cannot be updated")
     }
 
     const updateBook = this.bookRepository.updateBook(forUpdate, verifyBook)

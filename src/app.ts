@@ -1,9 +1,7 @@
-import express from 'express'
-import { bookRoutes } from './routes/CreateBook.routes'
-const app = express()
+import express from 'express';
 
-app.use(express.json())
-app.use('/book', bookRoutes)
-app.use('/', bookRoutes)
+const app = express();
+
+app.use(express.json());
 
 export { app }

@@ -37,13 +37,13 @@ export class BookRepository implements IBookRepository {
 
   async create(bookName: string, pages: number, description: string, name: string, lastName: string, smallDescription: string) {
 
-    const newBook = new Book()
+    const newBookProps = {
 
-    Object.assign(newBook, {
-      bookName,
+      name: bookName,
       description,
       pages
-    })
+    }
+    const newBook = new Book(newBookProps)
 
     const createBookInClient = await prisma.book.create({
 
